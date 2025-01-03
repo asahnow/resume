@@ -1,9 +1,9 @@
 = My Résumé
 
 == Dependencies
-- `typst` binary
-- `Inter` & `Bricolage Grotesque` fonts
+`typst` binary +
+`Inter` & `Bricolage Grotesque` fonts
 
-== To build
+== Building
 `typst compile main.typ` or +
 `typst watch main.typ` for real-time recompilation
