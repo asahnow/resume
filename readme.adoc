@@ -1,0 +1,9 @@
+= My Résumé
+
+== Dependencies
+`typst` binary +
+`Inter` & `Bricolage Grotesque` fonts
+
+== Building
+`typst compile --input email=user@domain.tld --input phone='(123) 456–7890' main.typ` or +
+`typst watch main.typ` for real-time recompilation
