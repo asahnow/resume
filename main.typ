@@ -60,6 +60,5 @@ Conscientious accounting student with internship experience#strong($dash.em$)pro
   title: "Sales & Service Associate",
   dates: dates-helper(start-date: "Oct 2022", end-date: "Dec 2024"),
 )
-- Demonstrated strong ability in customer communication, improving store sales performance
-- Operated 4 tire machines and various equipment in 3 bays to service customer vehicles
-- Systematized inventory of 2000+ tires and 100s of automotive components to streamline withdrawal
+- Communicated effectively with customers to understand needs and deliver timely service, contributing to improved client satisfaction and overall sales performance
+- Led the organization and optimization of 2000-item inventory, enhancing operational efficiency and reducing retrieval time
