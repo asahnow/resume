@@ -8,17 +8,17 @@
   accent-color: "#554383",
 )
 
-Conscientious accounting student with internship experience#strong($dash.em$)proficient in GAAP, with additional IT skills.
+Conscientious staff accountant with internship experience#strong($dash.em$)proficient in GAAP, with additional IT skills
 
 == Education
 #edu(
   institution: "Oregon Institute of Technology",
   location: "Klamath Falls, OR",
-  dates: "Jun 2025 (Expected)",
+  dates: "Jun 2025",
   degree: "Bachelor’s of Science, Accounting",
 )
-- Cumulative GPA: 3.85
-- President’s List $crossmark$8
+- Magna Cum Laude
+// - Cumulative GPA: 3.86 #strong($dash.en$) Department GPA: 3.97
 
 == Work Experience
 #work(
@@ -27,10 +27,10 @@ Conscientious accounting student with internship experience#strong($dash.em$)pro
   title: "Staff Accountant " + strong($dash.en$) + " Internship",
   dates: dates-helper(start-date: "Jan 2025", end-date: "Present"),
 )
-- Prepare individual federal and state tax returns#strong($dash.em$)including sole proprietorships#strong($dash.em$)ensuring accuracy, compliance, and timely filing
+- Prepare individual federal and state tax returns, ensuring accuracy, compliance, and timely filing
 - Plan and perform financial statement audits for small businesses and nonprofit organizations, including testing internal controls, analyzing financial data, and preparing audit documentation
-- Volunteered at the front desk, providing professional, customer-facing service by greeting and delivering tax returns to clients
-- Supported accounts payable bookkeeping for a large client by processing invoices, reconciling vendor statements, and ensuring accurate and timely payments
+- Volunteered at the front desk, providing professional, customer-facing service by assisting clients and delivering tax returns
+- Managed accounts payable bookkeeping for a large client by processing invoices, reconciling vendor statements, and ensuring accurate and timely payments
 
 #work(
   company: "Academy for Character Education",
@@ -39,9 +39,9 @@ Conscientious accounting student with internship experience#strong($dash.em$)pro
   dates: dates-helper(start-date: "Jul 2017", end-date: "Present"),
 )
 - Administer 100+ multi-OS devices, implementing restrictions for staff and students
-- Conceptualized and implemented new system for assigning student work, receiving overwhelmingly positive feedback from enrolled families
+- Conceptualized and implemented new system for assigning student work, receiving overwhelmingly positive feedback from enrolled families and faculty
 - Operate 2 weekly home-linked assignment workflows, ensuring teachers and academic deans update their curriculum
-- Maintain website to keep current families up-to-date and bolster school’s discoverability
+- Maintain website to keep families current and bolster the school’s discoverability
 
 #work(
   company: "Running Y Properties",
@@ -60,5 +60,5 @@ Conscientious accounting student with internship experience#strong($dash.em$)pro
   title: "Sales & Service Associate",
   dates: dates-helper(start-date: "Oct 2022", end-date: "Dec 2024"),
 )
-- Communicated effectively with customers to understand needs and deliver timely service, contributing to improved client satisfaction and overall sales performance
+- Communicated effectively with customers to understand needs and deliver timely service, contributing to improved customer satisfaction and overall sales performance
 - Led the organization and optimization of 2000-item inventory, enhancing operational efficiency and reducing retrieval time
