@@ -8,6 +8,7 @@
   email: "",
   phone: "",
   personal-site: "",
+  linkedin: "",
   accent-color: "#000000",
   body-font: "Inter 18pt",
   heading-font: "Bricolage Grotesque",
@@ -26,7 +27,12 @@
   )
 
   set page(
-    margin: 0.5in,
+    // margin: 0.5in,
+    margin: (
+      top: 0.5in,
+      bottom: 0.25in,
+      x: 0.5in,
+    ),
     paper: paper,
   )
 
@@ -79,8 +85,9 @@
           contact-item(phone),
           contact-item(email, link-type: "mailto:"),
           contact-item(personal-site, link-type: "https://"),
+          contact-item(linkedin, link-type: "https://linkedin.com/"),
         )
-        items.filter(x => x != none).join("  |  ")
+        items.filter(x => x != none).join("  " + sym.slash.double + "  ")
       }
     ],
   )
@@ -113,25 +120,25 @@
 }
 
 #let edu(
-  institution: "",
   dates: "",
   degree: "",
-  gpa: "",
+  honors: "",
+  institution: "",
   location: "",
 ) = {
   generic-two-by-two(
     top-left: strong(institution),
     top-right: strong(dates),
-    bottom-left: emph(degree),
+    bottom-left: (degree),
     bottom-right: emph(location),
   )
 }
 
 #let work(
-  title: "",
-  dates: "",
   company: "",
+  dates: "",
   location: "",
+  title: "",
 ) = {
   generic-two-by-two(
     top-left: strong(company),

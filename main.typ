@@ -5,10 +5,14 @@
   phone: sys.inputs.phone,
   email: sys.inputs.email,
   // personal-site: "austinsahnow.net",
+  linkedin: "in/asahnow",
   accent-color: "#554383",
 )
 
-Conscientious staff accountant with internship experience#strong($dash.em$)proficient in GAAP, with additional IT skills
+Detail-oriented and organized professional with a background in accounting and
+IT support, intending to use my analytical and administrative skills in a legal
+assistant role. Committed to delivering high-quality support in a collaborative
+environment.
 
 == Education
 #edu(
@@ -17,20 +21,20 @@ Conscientious staff accountant with internship experience#strong($dash.em$)profi
   dates: "Jun 2025",
   degree: "Bachelor’s of Science, Accounting",
 )
-- Magna Cum Laude
+\ _Magna Cum Laude_
 // - Cumulative GPA: 3.86 #strong($dash.en$) Department GPA: 3.97
 
 == Work Experience
 #work(
   company: "Molatore & Co. CPAs",
   location: "Klamath Falls, OR",
-  title: "Staff Accountant " + strong($dash.en$) + " Internship",
+  title: "Staff Accountant",
   dates: dates-helper(start-date: "Jan 2025", end-date: "Present"),
 )
-- Prepare individual federal and state tax returns, ensuring accuracy, compliance, and timely filing
-- Plan and perform financial statement audits for small businesses and nonprofit organizations, including testing internal controls, analyzing financial data, and preparing audit documentation
-- Volunteered at the front desk, providing professional, customer-facing service by assisting clients and delivering tax returns
-- Managed accounts payable bookkeeping for a large client by processing invoices, reconciling vendor statements, and ensuring accurate and timely payments
+- Conduct financial statement audits for local governments and special entities, including documentation and analysis of financial data
+- Provide professional customer service by assisting clients and managing inquiries, enhancing client relations
+- Maintain meticulous records and documentation, demonstrating strong attention to detail
+- Prepare individual federal and state tax returns, ensuring compliance with regulations and deadlines
 
 #work(
   company: "Academy for Character Education",
@@ -38,21 +42,9 @@ Conscientious staff accountant with internship experience#strong($dash.em$)profi
   title: "IT Support Specialist",
   dates: dates-helper(start-date: "Jul 2017", end-date: "Present"),
 )
-- Administer 100+ multi-OS devices, implementing restrictions for staff and students
-- Conceptualized and implemented new system for assigning student work, receiving overwhelmingly positive feedback from enrolled families and faculty
-- Operate 2 weekly home-linked assignment workflows, ensuring teachers and academic deans update their curriculum
-- Maintain website to keep families current and bolster the school’s discoverability
-
-#work(
-  company: "Running Y Properties",
-  location: "Klamath Falls, OR",
-  title: "Staff Accountant " + strong($dash.en$) + " Internship",
-  dates: dates-helper(start-date: "Jun 2024", end-date: "Sep 2024"),
-)
-- Developed accounts payable processing manual to improve onboarding of new hires and exceed existing A/P processing productivity by 15%
-- Audited \$10,000#strong($dash.en$)\$25,000 cash receipts with rotating partners biweekly to ensure full collection of cash income from 7 departments
-- Dispatched invoices, purchase orders and other documents to operate accounts payable processing efficiently
-- Analyzed depreciation, ammortization, tax, insurance, and rent schedules, to confirm accurate payment and receipt amounts
+- Administer range of multi-OS devices, establishing compliance with operational protocols
+- Develop and implement systems for efficient workflow management, receiving positive feedback from stakeholders
+- Maintain the school’s website, enhancing communication and accessibility for families and faculty
 
 #work(
   company: "Les Schwab Tire Centers",
@@ -60,5 +52,22 @@ Conscientious staff accountant with internship experience#strong($dash.em$)profi
   title: "Sales & Service Associate",
   dates: dates-helper(start-date: "Oct 2022", end-date: "Dec 2024"),
 )
-- Communicated effectively with customers to understand needs and deliver timely service, contributing to improved customer satisfaction and overall sales performance
-- Led the organization and optimization of 2000-item inventory, enhancing operational efficiency and reducing retrieval time
+- Engaged with customers to assess needs and provide timely service, contributing to enhanced customer satisfaction
+- Leader of organizing and optimizing inventory management, improving operational efficiency
+
+#work(
+  company: "Running Y Properties",
+  location: "Klamath Falls, OR",
+  title: "Staff Accountant " + strong($dash.en$) + " Internship",
+  dates: dates-helper(start-date: "Jun 2024", end-date: "Sep 2024"),
+)
+- Created comprehensive accounts payable processing manual, improving onboarding and productivity
+- Conducted audits of cash receipts, ensuring accuracy and compliance across all departments
+- Managed documentation for accounts payable processes, ensuring timely and accurate payments
+
+== Skills
+- Experience in Microsoft Office Suite, Adobe software, and typesetting languages, with strong document formatting and proofreading abilities
+- Proficient with accounting software; quick to learn new document management systems and legal databases as needed
+- Excellent organizational skills and a keen attention to detail, with the ability to prioritize multiple tasks effectively
+- Dependable, with a professional demeanor, positive attitude, and team-oriented approach
+- Adept learner, eager to expand knowledge and skills; adaptable to new challenges
