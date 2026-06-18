@@ -1,0 +1,11 @@
+The TeX Gyre Pagella font distribution manifest.
+
+The font family consists of the following unmodified OpenType files:
+- texgyrepagella-regular.otf
+- texgyrepagella-italic.otf
+- texgyrepagella-bold.otf
+- texgyrepagella-bolditalic.otf
+
+Accompanying documentation:
+- gust-font-license.txt
+- lppl.txt
