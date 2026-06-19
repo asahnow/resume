@@ -1,5 +1,6 @@
 #let conf(
   name: none,
+  phone: none,
   email: none
 ) = {
   assert(
@@ -29,9 +30,19 @@
 
     title()
 
-    if email != none [
-      #link("mailto:" + email)
-    ]
+    let contact = yaml("contact.yaml")
+
+    if phone != none {
+      phone.replace("-", sym.dash.en)
+    } else if contact.phone != none {
+      str(contact.phone).replace("-", sym.dash.en) 
+    }
+
+    if email != none {
+      link("mailto:" + email)
+    } else if contact.email != none {
+      link("mailto:" + contact.email)
+    }
 
     body
   }
