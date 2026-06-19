@@ -5,6 +5,7 @@ from pathlib import Path
 CONTACT_FILE = Path("contact.yaml")
 DEFAULT_CONTACT_CONTENT = """phone:
 email:
+linkedin:
 """
 
 

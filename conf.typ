@@ -1,7 +1,8 @@
 #let conf(
   name: none,
   phone: none,
-  email: none
+  email: none,
+  linkedin: none
 ) = {
   assert(
     name != none,
@@ -26,7 +27,12 @@
       title: name
     )
 
-    show title: it => align(center, it)
+    show title: smallcaps
+    show title: set text(
+      size: 2em,
+      weight: "regular"
+    )
+    show title: set align(center)
 
     title()
 
@@ -37,11 +43,17 @@
     } else if contact.phone != none {
       str(contact.phone).replace("-", sym.dash.en) 
     }
-
+    
     if email != none {
       link("mailto:" + email)
     } else if contact.email != none {
       link("mailto:" + contact.email)
+    }
+
+    if linkedin != none {
+      link("https://www." + linkedin)[#linkedin]
+    } else if contact.linkedin != none {
+      link("https://www." + contact.linkedin)[#contact.linkedin]
     }
 
     body
