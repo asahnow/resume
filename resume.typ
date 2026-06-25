@@ -2,4 +2,5 @@
 
 #show: conf(
   name: "Austin Sahnow",
+  linkedin: "linkedin.com/in/asahnow"
 )
